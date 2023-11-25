@@ -1,0 +1,1650 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    justify-content: center;
+}
+.headercontainer{
+    width: 100%;
+    background-image: url(/images/headerbackground.png);
+    margin-bottom: 2rem;
+    background-repeat: no-repeat;
+}
+header nav{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: -2rem; */
+
+}
+header ul{
+    display: flex;
+    gap: 1rem;
+}
+li{
+    color: var(--Light-text, #FFF);
+    text-align: center;
+    font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; /* 180% */
+    letter-spacing: 0.2px;
+    cursor: pointer;
+}
+.inputbutton{
+    display: flex;
+    gap: 1rem;
+}
+input{
+    display: flex;
+    width: 150px;
+    padding: .5rem 20px;
+    border-radius: 39px;
+    border: 1px solid #E8E8E8;
+    background: #EFEFEF;
+}
+::placeholder{
+    color: var(--Background, #18171D);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 114.286% */
+    letter-spacing: 0.1px;
+}
+header button{
+    border-radius: 35px;
+    background: var(--Light-text, #FFF);
+    border-radius: 1rem;
+    color: #ef3779;
+    padding: .5rem 20px;
+    cursor: pointer;
+    border: none;
+}
+header button h3{
+    background: #38A3F1;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+
+}
+.hero{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    /* margin-top: -10rem; */
+}
+.hero img{
+    width: 80%;
+    margin-top: 10rem;
+}
+.herotext{
+    width: 50%;
+
+}
+.herotext img{
+    /* display: none; */
+}
+.herotext h1{
+    color: var(--Light-text, #FFF);
+    font-family: Roboto;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 65.5px; /* 119.091% */
+    letter-spacing: 0.2px;
+    margin-bottom: 1rem;
+}
+.herotext p{
+    color: var(--Light-text, #FFF);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: 0.2px;
+    width: 70%;
+    margin-bottom: 1rem;
+}
+.hero button{
+    border-radius: 35px;
+    background: var(--Light-text, #FFF);
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border: none;
+}
+.features{
+    width: 100%;
+}
+.features h3{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    margin-bottom: 1rem;
+
+}
+.features h2{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.features h4{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    width: 23%;
+    margin: auto;
+    
+}
+.icfeaturestext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.ictext1, .ictext2, .ictext3{
+    width: 22%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+
+}
+.iconh3{
+    display: flex;
+    align-items: center;
+}
+.iconh3 h3{
+    width: 187px;
+    height: 66px;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-left: 1rem;
+
+
+}
+.ictext1 p{
+    width: 240px;
+    /* height: 81px; */
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+.ictext2 p{
+    width: 240px;
+    height: 81px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+.ictext3 p{
+    width: 240px;
+    height: 81px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.light{
+    width: 100%;
+    margin: auto;
+
+}
+.lightcontent{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+.lightcontent h2{
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 30%;
+    margin: auto;
+
+}
+.lightcontent h4{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    width: 23%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+.lightbtn{
+    margin: auto;
+    margin-bottom: 5rem;
+    width: 12%;
+}
+.lightbtn button{
+    border: none;
+    background: #38A3F1;
+    padding: .5rem 1.5rem;
+    border-radius: 1rem;
+}
+.lightimg{
+    width: 50%;
+    /* margin-left: 20rem; */
+    margin-bottom: 5rem;
+    margin: auto;
+}
+.lightimg img{
+    width: 100%;
+}
+.light2{
+    background-image: url(/images/headerbackground.png);
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.light2 h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    /* text-align: center; */
+    color: #FFF;
+
+}
+.light2 h2{
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    /* text-align: center; */
+    color: #FFF;
+    margin-bottom: 2rem;
+
+}
+.light2 h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: center;
+
+}
+.light2 p{
+    color: #FFF;
+    margin-bottom: 2rem;
+    font-family: Roboto;
+}
+.light2 input{
+    width: 250px;
+    margin-bottom: 2rem;
+    margin: auto
+}
+.light2 button{
+    padding: .7rem 8rem;
+    border-radius: 39px;
+    border: none;
+    background: #EF2779;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    
+}
+.partners{
+    width: 100%;
+    margin-top: 3rem;
+    text-align: center;
+}
+.partners h1{
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+.partners h4{
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    width: 23%;
+    margin: auto;
+    margin-top: 1.5rem;
+    
+
+}
+.partnerscontent{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+.partnerscontent2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+.partnerscontent .partner1, .partner2,.partner3, h5{
+
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    /* text-align: left; */
+
+}
+.partner1, .partner2, .partner3, img{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+ .partnerscontent .partner1, .partner2,.partner3{
+    width: 200px;
+    margin-left: 4rem;
+}
+.partnerscontent2 .partner4,.partner5,.partner6{
+    width: 200px;
+    margin-left: 4rem;
+}
+.partnerscontent p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+.partnerscontent2 p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+ .partner1, .partner2, .partner3 img{
+    text-align: center;
+}
+.partner4, .partner5, .partner6 img{
+    text-align: center;
+}
+.partner1, .partner2, .partner3 p{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+.partner4, .partner5, .partner6 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+
+}
+.partners button{
+    padding: .7rem 2rem;
+    border-radius:2rem ;
+    background: #38A3F1;
+    border: none;
+    margin-bottom: 4rem;
+}
+.partners button h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+.testimonials{
+    width: 100%;
+    align-items: center;
+    justify-content: center; 
+    margin: auto;
+}
+.testimonials h2{
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.testimonials .dropbox{
+    width: 20%;
+    margin-bottom: 2rem;
+    margin: auto;
+}
+.testimonials h4{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 48%;
+    margin: auto;
+
+}
+.uidesigner{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.uidesigner h5 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    margin-left: 1rem;
+
+}
+.uidesigner p{
+
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+.testimonialsbtn{
+    width: 20%;
+    margin: auto;
+    
+}
+.testimonialsbtn button{
+    padding: .7rem 1rem;
+    border-radius:39px ;
+    background: #38A3F1;
+    border: none;
+}
+.testimonials button h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+.price{
+    width: 100%;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+.price h2{
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.price h4{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-bottom: 3rem;
+
+}
+.pricecards{
+    /* width: 80%; */
+    display: flex;
+    justify-content: center;
+}
+.card1, .card2{
+    width: 18%;
+    margin-left: 2rem;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF),linear-gradient(0deg, #DEDEDE, #DEDEDE);
+    padding: 1.5rem;
+    /* border: solid #18171D; */
+    border-radius: 10px;
+    box-shadow: 0px 13px 19px 0px #00000012;
+    border: 1px solid #DEDEDE;
+
+}
+.card3{
+    width: 18%;
+    margin-left: 2rem;
+    background: linear-gradient(39.97deg, #EF2779 0.79%, #7834BE 79.29%),linear-gradient(0deg, #DEDEDE, #DEDEDE);
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px 0px #00000012;
+    padding: 1.5rem;
+    border-radius: 10px;
+    color:  #FFFFFF;
+    
+}
+ .card1 h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-bottom: .5rem;
+
+}
+.card2 h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-bottom: .5rem;
+}
+.card3 h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-bottom: .5rem;
+}
+.card1 h5{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 1rem;
+
+
+}
+.card2 h5{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 1rem;
+
+}
+.card3 h5{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-bottom: 1rem;
+
+
+}
+.card1 h1{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+
+}
+.card2 h1{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+}
+.card3 h1{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 66px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+} .card1 sup{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: -2rem;
+    
+}
+.card2 sup{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left; 
+    margin-top: -2rem;
+
+    
+}
+.card3 sup{
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: -2rem;
+    
+}
+.card1 h6{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: -2rem;
+    margin-left: 2rem;
+}
+.card2 h6{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: -2rem;
+    margin-left: 4rem;
+}
+.card3 h6{
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    margin-top: -2rem;
+    margin-left: 4rem;
+}
+.card1 button{
+    padding: .5rem 2rem;
+    background: #38A3F1;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    border-radius: 39px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: none;
+
+}
+.card2 button{
+    padding: .5rem 2rem;
+    background: #38A3F1;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    border-radius: 39px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: none;
+
+}
+.card3 button{
+    padding: .5rem 2rem;
+    background: #EFEFEF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    border-radius: 39px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    border: none;
+}
+.contact{
+    width: 100%;
+    background: #252B42;
+    padding: 3rem;
+
+}
+.contactcontent{
+    display: flex;
+}
+.contact h2{
+    font-family: Roboto;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #FFF;
+
+}
+.contact h4{
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #FFF;
+    width: 24%;
+    margin: auto;
+    margin-bottom: 2rem;
+    
+}
+form{
+    width: 23%;
+    margin: auto;
+    background: white;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.contact form>input{
+    width: 80%;
+    margin-bottom: 1rem;
+    background: whitesmoke;
+
+}
+textarea{
+    width:90% ;
+    background: whitesmoke;
+    padding: 1rem;
+    border: none;
+}
+
+form button {
+    text-align: center;
+    background: #EF2779;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+    border: none;
+}
+.contacttext{
+    width: 50%;
+    
+}
+.location{
+    display: flex;
+    align-items: center;
+    
+}
+.phone{
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+
+}
+.mail{
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+}
+.location h6{
+    width: 30%;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FFF;
+    margin-left: 1rem;
+}
+.phone h6{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FFF;
+    margin-left: 1rem;
+}
+.mail h6{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    color: #FFF;
+    margin-left: 1rem;
+}
+.socials img{
+    align-items: center;
+    margin-left: 2rem;
+    /* margin-top: 2rem; */
+    
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    margin: auto;
+    gap: 5rem;
+}
+.pages{
+    /* margin-right: 5rem; */
+    width: 10%;
+}
+.pages h3{
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+
+}
+.pages li{
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #000;
+
+}
+.contacttext2{
+    align-items: center;
+    /* width: 60%;
+    margin: auto; */
+}
+.location2{
+    display: flex;
+    align-items: center;
+    
+}
+.phone2{
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+}
+.mail2{
+    display: flex;
+    align-items: center;
+    margin-top: -2rem;
+}
+.location2 h6{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    /* color: #FFF; */
+    margin-left: 1rem;
+}
+.phone2 h6{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    /* color: #FFF; */
+    margin-left: 1rem;
+}
+.mail2 h6{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.10000000149011612px;
+    /* color: #FFF; */
+    margin-left: 1rem;
+}
+@media screen and (max-width:1024px){
+    .headercontainer{
+        background-size: cover;
+    }
+    .herotext h1{
+        font-size: 45px;
+    }
+    .herotext p{
+        width: 80%;
+    }
+    .herotext img{
+        display: none;
+    }
+    .features h4{
+        width: 30%;
+    }
+    .iconh3 img{
+        width: 100%;
+    }
+    .iconh3 h3{
+        width: 187px;
+        font-size: 20px;
+    }
+    .ictext1 p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .ictext2 p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .ictext3 p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .light h4{
+        width: 28%;
+        font-size: 14px ;
+    }
+    .lightbtn{
+        width: 15%;
+    }
+    .lightbtn button{
+        padding: .7rem;
+    }
+    .light2 p{
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .partners h4{
+        width: 30%;
+    }
+    .testimonials h4{
+        width: 70%;
+    }
+    .testimonials button{
+        padding: .7rem .5rem;
+    }
+    .location h6{
+        width: 50%;
+    }
+    .footer{
+        justify-content: center;
+        /* gap: 2rem; */
+    }
+    .testimonials .dropbox{
+        width: 20%;
+    }
+   .testimonials .dropbox img{
+        width: 100%;
+    }
+    .contact h4{
+        width: 30%;
+        margin: auto;
+        margin-bottom: 2rem;
+    }
+
+    .pages{
+        width: 30%;
+    }
+    .map {
+        width: 60%;
+    }
+    .map img{
+        width: 100%;
+    }
+    .contacttext2{
+        align-items: center;
+        width: 60%;
+        margin: auto;
+    }
+    .location img{
+        width: 5%;
+    }
+    .location h6{
+        font-size: 11px;
+    }
+    .phone img{
+        width: 5%;
+    }
+    .phone h6{
+        font-size: 11px;
+    }
+    .mail img{
+        width: 5%;
+    }
+    .mail h6{
+        font-size: 11px;
+    }
+    .location{
+        width: 100%;
+    }
+    
+    .contacttext2 .location2 img{
+        width: 5%;
+    }
+    .location2 h6{
+        /* width: 100%; */
+        font-size: 11px;
+    }
+    .phone2 img{
+        width: 5%;
+    }
+    .phone2 h6{
+        font-size: 11px;
+    }
+    .mail2 img{
+        width: 5%;
+    }
+    .mail2 h6{
+        font-size: 11px;
+    }
+    .socials img{
+        width: 7%;
+    }
+
+    @media screen and (max-width:768px){
+        .headercontainer nav img{
+            width: 25%;
+        }
+        header ul{
+            display: none;
+        }
+        .hero{
+            margin-top: -4rem;
+        }
+        .herotext img{
+            display: none;
+        }
+        .hero h1{
+            font-size: 45px;
+        
+        }
+        .herotext p{
+            width: 100%;
+            font-size: 14px;
+        }
+        .hero button{
+            padding: 1rem 1.5rem;
+        }
+        .features h4{
+            font-size: 14px;
+            width: 35%;
+        }
+        .iconh3 h3{
+            font-size: 16px;
+        }
+        .ictext1 {
+            width: 25%;
+        }
+        .ictext1 p{
+            font-size: 14px;
+        }
+        .ictext2{
+            width: 25%;
+        }
+        .ictext2 p{
+            font-size: 14px;
+        }
+        .ictext3{
+            width: 25%;
+        }
+        .ictext3 p{
+            font-size: 14px;
+        }
+        .light h2{
+            font-size: 40px;
+            width: 40%;
+        }
+        .light h4{
+            width: 35%;
+        }
+        .lightbtn{
+            width: 20%;
+        }
+        .lightbtn button{
+            padding: .7rem ;
+        }
+        .light2 h2{
+            width: 100%;
+            text-align: center;
+        }
+        .partners h4{
+            width: 40%;
+        }
+        .partnerscontent{
+            width: 95%;
+        }
+        .partnerscontent2{
+            width: 95%;
+        }
+        .partnerscontent .partner1, .partner2,.partner3, h5{
+            font-size: 14px;
+            
+        }
+        .partnerscontent .partner4, .partner5,.partner6, h5{
+            font-size: 14px;
+        }
+        .partnerscontent .partner1, .partner2,.partner3, img{
+            width: 45%;
+        }
+        .partnerscontent .partner4, .partner4,.partner4, img{
+            width: 45%;
+        }
+         .partner1 p{
+            font-size: 16px;
+        }
+        .partner2 p{
+            font-size: 16px;
+        }
+        .partner3 p{
+            font-size: 16px;
+        }
+        .partner4 p{
+            font-size: 16px;
+        }
+        .partner5 p{
+            font-size: 16px;
+        }
+        .partner6 p{
+            font-size: 16px;
+        }
+        .testimonials .dropbox{
+            width: 20%;
+            margin-bottom: 2rem;
+            margin: auto;
+        }
+        .dropbox img{
+            width: 100%;
+        }
+        .testimonials h4{
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 2rem;
+            width: 82%;
+            margin: auto;
+        
+        }
+        .uidesigner{
+            width: 25%;
+            display: flex;
+            align-items: center;
+            margin: auto;
+        }
+        .uidesigner h5 {
+            font-size: 12px;
+            margin-left: 1rem;
+        
+        }
+        .uidesigner p{
+            font-size: 14px;
+            text-align: left;
+        
+        }
+        .uidesigner img{
+            width: 30%;
+        }
+        .testimonialsbtn{
+            width: 25%;
+            margin: auto;
+            
+        }
+        .testimonialsbtn button{
+            padding: .7rem ;
+            border-radius:39px ;
+            background: #38A3F1;
+            border: none;
+        }
+        .testimonials button h3{
+            font-size: 18px;
+            text-align: left;
+        
+        }
+        .card1 h3{
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: .5rem;
+        
+        }
+        .card2 h3{
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: .5rem;
+        }
+        .card3 h3{
+            font-size: 18px;
+            text-align: left;
+            margin-bottom: .5rem;
+        }
+        .card1 h5{
+            font-size: 9px;
+            text-align: left;
+            margin-bottom: 1rem;
+        
+        
+        }
+        .card2 h5{
+            font-size: 9px;
+            text-align: left;
+            margin-bottom: 1rem;
+        
+        }
+        .card3 h5{
+            font-size: 9px;
+            text-align: left;
+            margin-bottom: 1rem;
+        
+        
+        }
+        .card1 button{
+            padding: .5rem .7rem;
+         
+     
+        
+        }
+        .card2 button{
+            padding: .5rem .7rem;
+           
+        }
+        .card3 button{
+            padding: .5rem .7rem;
+        }
+        .contact h2{
+            font-size: 40px;
+           
+        }
+        .contact h4{
+            width: 35%;
+            font-size: 14px;
+            margin-bottom: 2rem;
+            
+        }
+        .location img{
+            width: 5%;
+        }
+        .location h6{
+            font-size: 9px;
+        }
+        .phone img{
+            width: 5%;
+        }
+        .phone h6{
+            font-size: 9px;
+        }
+        .mail img{
+            width: 5%;
+        }
+        .mail h6{
+            font-size: 9px;
+        }
+        .socials img{
+            width: 7%;
+        }
+        .location img{
+            width: 5%;
+        }
+        .pages h3{
+            font-size: 18px;
+           
+        
+        }
+        .pages li{
+            font-size: 13px;
+            
+        }
+        .location2 h6{
+            font-size: 9px;
+        }
+        .phone2 img{
+            width: 5%;
+        }
+        .phone2 h6{
+            font-size: 9px;
+        }
+        .mail2 img{
+            width: 5%;
+        }
+        .mail2 h6{
+            font-size: 9px;
+        }
+        .socials img{
+            width: 7%;
+        }
+
+
+    }
+    
+
+}
+@media screen and (max-width: 425px){
+    .headercontainer nav img{
+        width: 50%;
+    }
+    .headercontainer{
+        height: 50rem;
+    }
+    header nav input{
+        display: none;
+    }
+    header button{
+        display: none;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        padding: 2rem;
+        align-items: center;
+    }
+    .hero img{
+        padding-top: 2rem;
+        position: absolute;
+        margin: auto;
+        margin-bottom: 3rem;
+    }
+    /* .herotext img{
+        display: block;
+        margin-top: -2rem;
+        margin-bottom: 3rem;
+    } */
+    .herotext button{
+        margin-top: 17rem;
+    }
+
+    .herotext {
+        width: 100%; 
+        margin: auto;
+        text-align: center;
+    }
+    
+    .herotext h1{
+        width: 90%;
+        font-size: 30px;
+        margin: auto;
+    }
+    .herotext p{
+        width: 70%;
+        margin: auto;
+        font-size: 13px;
+    }
+    .features{
+        
+        display: block;
+       
+    }
+    .features h3{
+        font-size: 18px;
+    }
+    .features h2{
+        font-size: 30px;
+    }
+    .features h4{
+        width: 65%;
+    }
+    .icfeaturestext{
+        display: block;
+       
+    }
+    .ictext1{
+        width: 50%;
+        margin: auto;
+    }
+    .ictext2{
+        width: 50%;
+        margin: auto;
+        /* padding-left: 3rem; */
+        
+    }
+    .ictext3{
+        width: 50%;
+        margin: auto;
+    }
+    .iconh3{
+    align-items: center;
+    }
+    .iconh3 h3{
+    font-size: 18px ;
+    }
+    .light{
+        margin-top: 2rem;
+    }
+    .light2{
+    width: 100%;
+    
+    }
+    .light h2{
+        font-size: 30px;
+        width: 70%;
+    }
+    .light h4{
+        width: 65%;
+    }
+    .light .lightbtn{
+      width: 30%;
+    }
+    .light2 h3{
+        font-size: 18px;
+    }
+    .light2 h2{
+        width: 90%;
+        font-size: 30px;
+        margin-bottom: 0;
+
+      
+    }
+    .light2 p{
+        font-size: 12px;
+        margin-bottom: 1rem;
+    }
+    .light2 input{
+        width: 40%;
+    }
+    .light2 button{
+        padding: .7rem 4.5rem;
+    }
+    .partners{
+        width: 100%;
+        align-items: center;
+    }
+    .partners h4{
+        margin-bottom: 2rem;
+    }
+    .partners button{
+        padding: .5rem .7rem;
+    }
+    .partners h1{
+        font-size: 30px;
+    }
+    .partners h4{
+        width: 65%;
+        font-size: 14px;
+    }
+   
+    .partner1 {
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2rem;
+        padding-left: 3rem;
+        align-items: center;
+        
+    }
+    .partner2{
+        width: 50%;
+        margin: auto;
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+    .partner3{
+        width: 50%;
+        margin: auto;
+        align-items: center;
+    }
+
+    .partnerscontent{
+        width: 100%;
+        margin: auto;
+        display: block;
+        margin-bottom: 2rem;
+    }
+    .partnerscontent button{
+        padding: .7rem .5rem;
+    }
+    .partnerscontent2{
+        display: none;
+    }
+    .testimonials{
+        width: 100%;
+    }
+    .testimonials h2{
+        font-size: 30px;
+    }
+    .testimonials h4{
+        width: 65%;
+        font-size: 14px;
+        margin-bottom: 2rem;
+    }
+    .uidesigner{
+     width: 40%;
+    }
+    .testimonialsbtn{
+        width: 38%;
+    }
+    .testimonials button{
+        padding: .2rem .3rem;
+    }
+    .testimonialsbtn h3{
+        font-size: 13px;
+    }
+    .price{
+        width: 100%;
+    }
+    .price h2{
+        font-size: 30px;
+    }
+    .price h4{
+        font-size: 14px;
+    }
+    .pricecards{
+        display: block;
+        width: 100%;
+    }
+    .card1 {
+        width: 50%;
+        margin: auto;
+    }
+    .card2{
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .card3{
+        width: 50%;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .contact{
+        width: 70%;
+        margin: auto;
+    }
+    .contact h2{
+        width: 60%; 
+        margin: auto; 
+        font-size: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    .contact h4{
+        width: 90%;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+    }
+    .socials{
+        width: 100%;
+        margin: auto;
+    }
+    .contactcontent{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .contacttext{
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    } .location h6{
+        width: 60%;
+    }
+    form{
+      width: 60%;
+      margin-left: 0;
+    }
+    footer{
+        display: block;
+    }
+    .pages{
+        width: 50%;
+        margin: auto;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+    footer .socials{
+        width: 100%;
+    }
+    .map img{
+        margin: auto;
+        width: 100%;
+        margin-bottom: 2rem;
+        justify-content: center;
+    }
+    
+
+}
